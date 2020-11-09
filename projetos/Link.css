@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+  grid-column-gap: 20px;
+  grid-template-areas: "topo topo topo"
+                       "menu principal lateral"
+                       "base base base"
+}
+
+header{
+  background: red;
+  grid-area: topo;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+}
+
+.logo img{
+  border-radius: 50px;
+  box-shadow: 0px 0px 6px 6px black;
+}
+
+.titulo h1{
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.login-button{
+  height: 50px;
+  width: 100px;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: red;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 0px 7px 6px white;
+}
+
+nav{
+  background: midnightblue;
+  grid-area: menu;
+}
+
+main{
+  background: #232;
+  grid-area: principal;
+}
+
+aside{
+  background: midnightblue;
+  grid-area: lateral;
+}
+
+footer{
+  background: red;
+  grid-area: base;
+}
+
+p{
+  color: white;
+  font-size: 2em;
+}

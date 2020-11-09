@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+.main{
+    margin: 0 auto;
+}
+#n0{
+    margin-left: 54px;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2;
+}
+.textview{
+    width: 211px;
+    height: 30px;
+}
+
+(JavaScript):
+function insert(num){
+    document.form.textview.value = document.form.textview.value + num;
+}
+function equal(){
+    exp = document.form.textview.value;
+    if(exp){
+       document.form.textview.value = eval(exp);
+}
+}
+function c(){
+    document.form.textview.value = "";
+}
+function back(){
+    var exp = document.form.textview.value;
+    document.form.textview.value = exp.substring(0, exp.length-1);
+}

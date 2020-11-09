@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Só os contatinhos e a familia</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body onload="preencherTab()">
+    <div class="dados">
+      <h1>Adicionar novo Contato</h1>
+      <form>
+        <label for="nome">Nome do Contato</label><br>
+        <input type="text" name="nome" id="nome"><br>
+
+        <label for="tel">Número de telefone do Contato</label><br>
+        <input type="tel" name="tel" id="tel"><br>
+
+        <label for="email">Email do Contato</label><br>
+        <input type="email" name="email" id="email"><br>
+
+        <button type="button" name="button"
+        onclick="adicionarDados()">Salvar</button>
+      </form>
+      <h2>Contatos Salvos</h2>
+      <table border="1">
+        <thead>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>Email</th>
+        </thead>
+        <tbody id="contatos">
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="Script.js">
+    </script>
+  </body>
+</html>

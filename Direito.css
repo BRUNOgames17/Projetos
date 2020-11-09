@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.estrutura {
+  display: grid;
+  grid-template-rows: 30vh 200vh 30vh 20vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+li {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16vh;
+  padding-right: 16vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font-weight: 400px;
+}
+
+h2 {
+  color: white;
+}
+
+.item {
+  font-size: 1.5em;
+  border-style: hidden;
+}
+
+.logo {
+  border-radius: 50px;
+}
+
+footer {
+  background-color: midnightblue;
+}
+
+p {
+  color: white;
+  font-size: 1.25em;
+}
+
+a {
+  background: black;
+  margin-left: 10px;
+}
+
+div img {
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+}
+
+.info {
+  background-color: #900;
+}
+
+.projeto {
+  background-color: #387;
+  padding-left: 20vh;
+}
+
+.pro{
+  display: flex;
+  flex-direction: column;
+  display: block;
+  margin: 10px;
+}
+
+.latias {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.latios {
+  display: flex;
+  flex-direction: row;
+}
+
+.lane {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ctt {
+  background-color: #894;
+}
+
+input {
+  background:transparent;
+  box-shadow: none;
+  border:none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+}
