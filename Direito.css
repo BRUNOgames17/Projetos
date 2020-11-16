@@ -77,14 +77,13 @@ div img {
 
 .pro{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   display: block;
   margin: 10px;
 }
 
 .card {
-  display: flex;
-  flex-direction: row;
+  width: 50vh;
   margin-top: 10px;
   margin-bottom: 10px;
 }
