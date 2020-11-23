@@ -12,10 +12,10 @@
       <h1>MENU</h1>
       <nav>
         <ul class="item">
-          <li><a href="#alo">Sobre</a></li>
-          <li><a href="#pro">Projetos</a></li>
-          <li><a href="#con">Contate-nos</a></li>
-          <li><a href="#link">Links</a></li>
+          <li><a class="btn btn-secondary btn-lg active" href="#alo">Sobre</a></li>
+          <li><a class="btn btn-secondary btn-lg active" href="#pro">Projetos</a></li>
+          <li><a class="btn btn-secondary btn-lg active" href="#con">Contate-nos</a></li>
+          <li><a class="btn btn-secondary btn-lg active" href="#link">Links</a></li>
         </ul>
       </nav>
       <img src="img/icone.png" width="110px" height="110px" class="logo">
@@ -31,41 +31,49 @@
 
       <div class="projeto" id="pro">
         <h2>Projetos</h2><br>
-        <div class="pro">
+        <div class="d-flex flex-column flex-md-row container">
           <div class="card">
-            <a href="projetos/Css go.html"><img class="card-img-top" src="img/Site1.png"></a>
+            <img class="card-img" src="img/Site1.png">
             <div class="card-body">
               <p class="card-text">Exemplo de um site meu</p>
+              <a href="projetos/Css go.html" class="btn btn-secondary btn-lg btn-block">Ver site</a>
             </div>
           </div>
           <div class="card">
-            <a href="projetos/Grid.html"><img class="card-img-top" src="img/Site2.png"></a>
+            <img class="card-img" src="img/Site2.png">
             <div class="card-body">
               <p class="card-text">Exemplo de um modelo para sites</p>
+              <a href="projetos/Grid.html" class="btn btn-secondary btn-lg btn-block">Ver site</a>
             </div>
           </div>
           <div class="card">
-            <a href="projetos/Atividade2.html"><img class="card-img-top" src="img/Site3.png"></a>
+            <img class="card-img" src="img/Site3.png">
             <div class="card-body">
               <p class="card-text">Exemplar de uma lista para a adição de contatos</p>
+              <a href="projetos/Atividade2.html" class="btn btn-secondary btn-lg btn-block">Ver site</a>
             </div>
           </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row container">
           <div class="card">
-            <a href="projetos/Multiplicação.html"><img class="card-img-top" src="img/Site4.png"></a>
+            <img class="card-img" src="img/Site4.png">
             <div class="card-body">
               <p class="card-text">Exemplo de um pequeno joguinho de site</p>
+              <a href="projetos/Multiplicação.html" class="btn btn-secondary btn-lg btn-block">Ver site</a>
             </div>
           </div>
           <div class="card">
-            <a href="projetos/erro.html"><img class="card-img-top" src="img/Projeto5.png"></a>
+            <img class="card-img" src="img/Projeto5.png">
             <div class="card-body">
               <p class="card-text">Jogo completo feito em C++</p>
+              <a href="projetos/erro.html" class="btn btn-secondary btn-lg btn-block">Ver site</a>
             </div>
           </div>
           <div class="card">
-            <a href="projetos/p6.html"><img class="card-img-top" src="img/Projeto6.png"></a>
+            <img class="card-img" src="img/Projeto6.png">
             <div class="card-body">
               <p class="card-text">Calculadora simples</p>
+              <a href="projetos/p6.html" class="btn btn-secondary btn-lg btn-block">Ver site</a>
             </div>
           </div>
         </div>
@@ -79,12 +87,12 @@
         <label for="email">E-mail</label>
         <input type="email" name="email" placeholder="Digite seu e-mail"><br>
 
-        <button type="button" name="button">Enviar</button>
+        <button class="btn btn-outline-light" type="button" name="button">Enviar</button>
       </div>
 
       <footer class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-midnightblue border-bottom box-shadow" id="link">
         <h2>Filipe</h2>
-        <p>Whatsapp: +55 67 9107-6534</p>
+        <h4>Whatsapp: +55 67 9107-6534</h4>
         <img src="img/icone.png" width="110px" height="110px" alt="" class="logo">
       </footer>
     </main>

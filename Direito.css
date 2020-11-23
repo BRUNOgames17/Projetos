@@ -32,15 +32,6 @@ header {
   padding-bottom: 10px;
 }
 
-button {
-  padding-left: 20px;
-  padding-right: 20px;
-  background: #fff;
-  color: #111;
-  cursor: pointer;
-  font-weight: 400px;
-}
-
 .item {
   font-size: 1.5em;
   border-style: hidden;
@@ -51,7 +42,7 @@ button {
 }
 
 footer {
-  background-color: midnightblue;
+  background-color: black;
 }
 
 p {
@@ -70,22 +61,14 @@ div img {
   margin: 10px;
 }
 
-.projeto {
+.projeto{
   background-color: #387;
-  padding-left: 20vh;
-}
-
-.pro{
-  display: flex;
-  flex-direction: row;
-  display: block;
   margin: 10px;
 }
 
 .card {
-  width: 50vh;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  align-items: center;
+  margin: 10px;
 }
 
 .lane {
@@ -95,7 +78,8 @@ div img {
 }
 
 .ctt {
-  background-color: #894;
+  background-color: midnightblue;
+  color: white;
 }
 
 input {
@@ -109,7 +93,7 @@ input {
 }
 
 footer {
-  color: black;
+  color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
