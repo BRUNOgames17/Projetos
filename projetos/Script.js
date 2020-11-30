@@ -45,3 +45,30 @@ function add_Tabela(ctt) {
 
   document.getElementById('contatos').append(tr);
 }
+
+function shareIMG(titulo, texto , url){
+if (navigator.share) {
+  navigator.share({
+    title: titulo,
+    text: texto,
+    url: url,
+  })
+    .then(() => console.log('Successful share'))
+    .catch((error) => console.log('Error sharing', error));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
