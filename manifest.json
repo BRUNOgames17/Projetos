@@ -4,7 +4,7 @@
   "name": "Svyter App",
   "short-name": "Svyter",
   "start-url": "https://svyter.github.io/Projetos/",
-  "display": "minimal-ui",
+  "display": "standalone",
   "scope": "/Projetos/",
   "background_color": "black",
   "theme-color": "white",
