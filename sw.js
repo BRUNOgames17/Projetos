@@ -5,8 +5,7 @@ self.addEventListener('install', function(evt){
 
 self.addEventListener('active', function(evt){
   console.log('active sw');
-  evt.waitUntil(
-caches.keys( ).then(function(keys)){
+  evt.waitUntil(caches.keys( ).then(function(keys)){
 return promise.all(
    keys
   .filter(key => key !== cacheName)
